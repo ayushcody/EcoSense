@@ -35,31 +35,6 @@ This application is built to integrate with existing IoT infrastructures, such a
     * **Multilingual Support:** Supports multiple languages (initially English, Hindi, Marathi).
     * **User Authentication:** Secure sign-up and login functionality with a personalized welcome message upon login.
       
-## File Structure
-
-lib/
-├── main.dart             # Main application entry point
-├── services/
-│   ├── api_service.dart  # Handles communication with backend APIs
-│   └── mqtt_service.dart # Handles communication using MQTT protocol
-├── models/
-│   ├── sensor_data.dart  # Defines the structure for sensor readings
-│   ├── sensor_model.dart # Defines the structure for sensor information
-│   └── alert_model.dart  # Defines the structure for alerts
-├── providers/
-│   ├── app_state.dart      # Manages global application state
-│   ├── settings_provider.dart # Manages user settings (theme, locale)
-│   ├── sensor_provider.dart   # Manages sensor data and interactions
-│   ├── alert_provider.dart    # Manages alerts and notifications
-│   ├── user_provider.dart     # Manages user authentication and data
-│   ├── locale_provider.dart   # Manages application locale
-│   └── theme_provider.dart    # Manages application theme
-├── screens/
-│   ├── dashboard_screen.dart   # Main dashboard displaying sensor data
-│   ├── sensor_details_modal.dart # Modal for detailed sensor information and graphs
-│   └── settings_screen.dart    # Screen for user configuration
-└── theme/
-└── ecosense_theme.dart   # Defines the application's color scheme and typography
 ## Technologies Used
 
 * **Flutter:** Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
