@@ -34,8 +34,9 @@ This application is built to integrate with existing IoT infrastructures, such a
     * **Dark Mode:** Switchable dark mode with a visually engaging sun/moon transition button.
     * **Multilingual Support:** Supports multiple languages (initially English, Hindi, Marathi).
     * **User Authentication:** Secure sign-up and login functionality with a personalized welcome message upon login.
-
+      
 ## File Structure
+
 lib/
 ├── main.dart             # Main application entry point
 ├── services/
@@ -59,7 +60,6 @@ lib/
 │   └── settings_screen.dart    # Screen for user configuration
 └── theme/
 └── ecosense_theme.dart   # Defines the application's color scheme and typography
-
 ## Technologies Used
 
 * **Flutter:** Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
